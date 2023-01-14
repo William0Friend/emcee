@@ -1,24 +1,18 @@
 {
-  "name": "emcee",
-  "version": "0.0.1",
-  "description": "",
-  "main": "dist/index.js",
   "scripts": {
-    "start": "tsc && node dist/index.js",
-    "lint": "eslint . --ext .ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc-watch --noClear --onSuccess \"node ./dist/src/index.js\"",
+    "start": "tsc && node dist/src/index.js",
+    "lint": "eslint . --ext .ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/William0Friend/emcee.git"
   },
-  "keywords": [],
   "author": "William Friend",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/William0Friend/emcee/issues"
   },
-  "homepage": "https://github.com/William0Friend/emcee#readme",
   "dependencies": {
     "@tensorflow/tfjs-node": "^4.2.0",
     "audio-decode": "^1.4.0",
@@ -33,7 +27,8 @@
     "multer": "^1.4.4",
     "multer-gridfs-storage": "^5.0.2",
     "node-worker-threads-pool": "^1.5.1",
-    "scikitjs": "^1.24.0"
+    "scikitjs": "^1.24.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
