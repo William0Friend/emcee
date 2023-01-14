@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Love and Hopelessness",
+      "artist": "Emcee",
+      "price": "9.99",
+      "sku": "song_1",
+      "albumArtUrl": "https://example.com/love_and_hopelessness.jpg",
+      "previewUrl": "https://example.com/love_and_hopelessness.mp3"
+    },
+    {
+      "title": "The Struggle is Real",
+      "artist": "Emcee",
+      "price": "7.99",
+      "sku": "song_2",
+      "albumArtUrl": "https://example.com/the_struggle_is_real.jpg",
+      "previewUrl": "https://example.com/the_struggle_is_real.mp3"
+    },
+    {
+      "title": "Elevated Minds",
+      "artist": "Emcee",
+      "price": "11.99",
+      "sku": "song_3",
+      "albumArtUrl": "https://example.com/elevated_minds.jpg",
+      "previewUrl": "https://example.com/elevated_minds.mp3"
+    }
+  ]
+  
